@@ -1,0 +1,41 @@
+<div class="mouse-cursor cursor-inner" style="visibility: visible; transform: translate(1331px, 608px);"></div>
+<div class="mouse-cursor cursor-outer" style="visibility: visible; transform: translate(465px, 602px);"></div>
+
+
+css-----------------------------
+
+
+
+.mouse-cursor {
+	position: fixed;
+	left: 0;
+	top: 0;
+	pointer-events: none;
+	border-radius: 50%;
+	-webkit-transform: translateZ(0);
+	transform: translateZ(0);
+	visibility: hidden;
+}
+
+.mouse-cursor {
+	position: fixed;
+	left: 0;
+	top: 0;
+	pointer-events: none;
+	border-radius: 50%;
+	-webkit-transform: translateZ(0);
+	transform: translateZ(0);
+	visibility: hidden;
+}
+
+.cursor-inner {
+	margin-left: -8px;
+	margin-top: -8px;
+	width: 6px;
+	height: 6px;
+	z-index: 10000001;
+	background-color: #e0f210;
+	-webkit-transition: width .3s ease-in-out,height .3s ease-in-out,margin .3s ease-in-out,opacity .3s ease-in-out;
+	-o-transition: width .3s ease-in-out,height .3s ease-in-out,margin .3s ease-in-out,opacity .3s ease-in-out;
+	transition: width .3s ease-in-out,height .3s ease-in-out,margin .3s ease-in-out,opacity .3s ease-in-out;
+}
